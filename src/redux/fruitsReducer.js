@@ -1,14 +1,9 @@
-const initialState = {
-  fruits: ['Яблоко', 'Банан', 'Апельсин', 'Груша']
-};
+﻿const initialState = [];
 
 const fruitsReducer = (state = initialState, action) => {
   switch (action.type) {
     case 'ADD_FRUIT':
-      return {
-        ...state,
-        fruits: [...state.fruits, action.payload]
-      };
+      return [...state, action.payload];
     default:
       return state;
   }

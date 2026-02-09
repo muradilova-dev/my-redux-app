@@ -1,0 +1,37 @@
+﻿{
+  "featuredFruits": [
+    {
+      "id": 1,
+      "name": "Манго",
+      "image": "https://images.unsplash.com/photo-1553279768-0c4294f8f6f8?w=800",
+      "description": "Сладкий тропический фрукт с насыщенным вкусом",
+      "calories": 60,
+      "origin": "Индия",
+      "season": "Лето"
+    },
+    {
+      "id": 2,
+      "name": "Авокадо",
+      "image": "https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?w=800",
+      "description": "Кремовая текстура, богат омега-кислотами",
+      "calories": 160,
+      "origin": "Мексика",
+      "season": "Круглый год"
+    }
+  ],
+  "news": [
+    {
+      "id": "n1",
+      "title": "Новый рекорд арбуза",
+      "date": "2026-01-15",
+      "short": "198 кг  новый рекорд"
+    }
+  ],
+  "tips": [
+    {
+      "id": "t1",
+      "title": "Как чистить гранат",
+      "text": "Разрежьте и постучите ложкой"
+    }
+  ]
+}
